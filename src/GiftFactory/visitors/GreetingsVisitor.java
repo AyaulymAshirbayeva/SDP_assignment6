@@ -11,7 +11,7 @@ public class GreetingsVisitor implements IVisitor {
     }
 
     private void printGreeting(String giftName) {
-        System.out.println("\nNew Year greeting for " + name + ":");
+        System.out.println("New Year greeting for " + name + ":");
         if (age <= 3) {
             System.out.println("Happy New Year, little star!");
 
@@ -49,7 +49,7 @@ public class GreetingsVisitor implements IVisitor {
 
     @Override
     public void visit(Coal coal) {
-        System.out.println("\nA special message for " + name + ":");
+        System.out.println("A special message for " + name + ":");
         System.out.println("Maybe next year you will be on Santa's nice list!");
     }
 }
