@@ -1,12 +1,7 @@
 package GiftFactory;
 
-import GiftFactory.*;
-import GiftFactory.*;
 import GiftFactory.gifts.*;
-import GiftFactory.visitors.GiftWrapperVisitor;
-import GiftFactory.visitors.GreetingsVisitor;
-import GiftFactory.visitors.IVisitor;
-import GiftFactory.visitors.ToddlerFriendlyVisitor;
+import GiftFactory.visitors.*;
 
 public class Main {
     public static void main(String[] args) {
